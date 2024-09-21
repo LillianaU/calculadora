@@ -1,0 +1,34 @@
+#calculator {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  #display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    background-color: #ADD8E6;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 70px;
+    height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .operand {
+    background-color: #87CEEB;
+    color: #fff;
+  }
+  
+  .operator {
+    background-color: #ADD8E6;
+    color: #000;
+  }
